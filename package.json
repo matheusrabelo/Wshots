@@ -1,0 +1,34 @@
+{
+  "name": "wshots",
+  "version": "0.1.0",
+  "description": "website screenshot",
+  "main": "dist/core.js",
+  "bin": {
+    "wshots": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusrabelo/Wshots.git"
+  },
+  "keywords": [
+    "puppeteer"
+  ],
+  "author": "Matheus Freire Rabelo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matheusrabelo/Wshots/issues"
+  },
+  "homepage": "https://github.com/matheusrabelo/Wshots#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "commander": "^2.17.1",
+    "puppeteer": "^1.7.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
